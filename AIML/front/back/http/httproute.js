@@ -1,5 +1,5 @@
 const http = require('http');
-const fs = require('fs/promises');
+const fspromises = require('fs/promises');
 const server = http.createServer(async (req, res) =>{
     //res.statusCode=200;
     res.setHeader('Content-Type', 'text/html');
