@@ -18,7 +18,7 @@ const server = http.createServer(async (req, res) =>{
 //users.forEach((user) =>{
     //data += user.name;
 //});
-    res.end(a);
+    //res.end(a);
 });
 port=3001
 server.listen(port, () =>{
